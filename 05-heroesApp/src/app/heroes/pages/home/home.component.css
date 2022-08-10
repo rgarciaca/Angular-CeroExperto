@@ -1,0 +1,22 @@
+.container {
+    margin: 20px;
+}
+
+.logoutBtn .mat-icon {
+    padding-right: 5px;
+}
+
+.usuario {
+    padding-right: 25px;
+    padding-top: 0;
+    font-size: 0.7em;
+}
+
+.usuario span {
+    vertical-align: super;
+}
+
+.usuario .mat-icon {
+    padding-top: 10px;
+    padding-right: 5px;
+}

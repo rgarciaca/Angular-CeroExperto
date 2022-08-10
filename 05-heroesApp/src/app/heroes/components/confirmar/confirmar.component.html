@@ -1,0 +1,8 @@
+<h1>Confirmación de eliminación</h1>
+<hr>
+<p>Va a eliminar al Héroe: {{ data.superhero }}</p>
+<p>¿Desea continuar?</p>
+<div>
+    <button mat-button (click)="borrar()" color="warn"><mat-icon>person_remove</mat-icon> Eliminar</button>
+    <button mat-button (click)="cancelar()"><mat-icon>highlight_off</mat-icon> Cancelar</button>
+</div>
